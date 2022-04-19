@@ -1,0 +1,61 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--body-bg-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* picture */
+.picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture img {
+    clip-path: circle();
+    margin: 7.87rem 6.68rem 1.37rem 6.68rem;
+}
+
+.picture p {
+    font-size: 300;
+    color: var(--purple);
+}
+
+/* links */
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.06rem;
+    gap: 1rem;
+
+    align-items: center;
+}
+
+.links a {
+    border: .1255rem solid var(--purple);
+    border-radius: 0.25rem;
+    padding: 0.75rem 0rem;
+    
+    width: 326px;
+    height: 49px;
+    
+    color: var(--purple);
+    background-color: var(--body-bg-color);
+    cursor: pointer;
+    text-align: center;
+}
+
+/* TO DO*/
+/*circle around the picture*/
