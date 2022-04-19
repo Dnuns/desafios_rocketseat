@@ -17,8 +17,8 @@ https://desafios-rocketseat-j6mplhas8-dnuns.vercel.app/
 
 ## Preview
 
-![screenshot](/desafios_rocketseat/SocialTree/readme_img/iPhone_13.png)
-![screenshot](/desafios_rocketseat/SocialTree/readme_img/MacBook_Pro_16_inch.png)
+![screenshot](readme_img/iPhone_13.png)
+![screenshot](readme_img/MacBook_Pro_16_inch.png)
 
 ## Author
 
