@@ -1,18 +1,18 @@
 # SocialTree
 
-This is one of the defies lunched by RocketSeat.
+This is one of Rocketseat's challenges.
 
 ## Tech Stack
 
-<img alt="TypeScript" width="26px" src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png" /><img alt="Java" width="26px" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" /><img alt="React.js" width="26px" src="https://cdn-icons-png.flaticon.com/512/919/919851.png" /><img alt="Spring" width="86px" src="https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg" /><img alt="Postgres" width="26px" src="https://cdn-icons-png.flaticon.com/512/5968/5968342.png" />
-
+<img alt="HTML5" width="28px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /><img alt="CSS3" width="28px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 
 ## Link
 https://davidsmovie.netlify.app
 
 ## Preview
 
-![]()
+![screenshot](/desafios_rocketseat/SocialTree/readme_img/iPhone_13.png)
+![screenshot](/desafios_rocketseat/SocialTree/readme_img/MacBook_Pro_16_inch.png)
 
 ## Author
 
