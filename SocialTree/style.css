@@ -15,6 +15,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+main{
+    margin: 0 auto;
+}
+
 /* picture */
 .picture {
     display: flex;
@@ -24,8 +28,10 @@ body{
 }
 
 .picture img {
-    clip-path: circle();
+    border-radius: 50%;
     margin: 7.87rem 6.68rem 1.37rem 6.68rem;
+    padding: 6px;
+    border: 2px solid var(--purple);
 }
 
 .picture p {
@@ -55,7 +61,24 @@ body{
     background-color: var(--body-bg-color);
     cursor: pointer;
     text-align: center;
+    font-weight: 600;
+}
+
+/* social icons */
+
+.social-icons{
+    margin: 68px auto 155px auto;
+    width: 236px;
+    height: 24px;
+
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* TO DO*/
-/*circle around the picture*/
+
+/*
+    https://efficient-sloth-d85.notion.site/Desafio-Social-Tree-a4008e467a3248c4b05c97cf78aea44f
+*/
