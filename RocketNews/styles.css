@@ -17,15 +17,15 @@ body {
   font-family: Spartan, Work Sans;
 }
 
-.container {
-  padding-left: 36px;
-  padding-right: 36px;
-}
-
 .main-container {
   display: flex;
   height: 100vh;
   width: 100vw;
+}
+
+.container {
+  padding-left: 36px;
+  padding-right: 36px;
 }
 
 main {
@@ -95,13 +95,13 @@ header img {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: none
+  border: none;
 }
 
 .send-btn {
   position: relative;
   height: 24px;
-  width: 24px;  
+  width: 24px;
 }
 
 .link {
@@ -122,6 +122,50 @@ header img {
   height: auto;
   background-image: url("assets/read_news.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: top right -7rem;
+}
+
+/*mobile view* 832 */
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  header img {
+    max-width: 230px;
+    height: auto;
+  }
+
+  .rigth-side {
+    display: none;
+    background-position: unset;
+  }
+
+  .form-div span {
+    max-width: 370px;
+    width: auto;
+  }
+
+  .form-div input {
+    max-width: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  header img {
+    max-width: 230px;
+    height: auto;
+  }
+
+  .form-div span {
+    max-width: 370px;
+    width: auto;
+  }
+
+  .form-div input {
+    max-width: auto;
+  }
 }
