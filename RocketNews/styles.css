@@ -36,7 +36,7 @@ main {
 header img {
   max-width: 24.31rem;
   height: auto;
-  margin: 50px auto 57px 0px;
+  margin: 50px auto 92px 0px;
 }
 
 .welcome {
@@ -73,7 +73,7 @@ header img {
 
 .form-div span {
   margin-top: 17px;
-  width: 750px;
+  width: 780px;
   position: relative;
   display: flex;
   align-items: center;
@@ -82,7 +82,7 @@ header img {
 .form-div input {
   height: 48px;
   min-width: auto;
-  width: 750px;
+  width: 780px;
   font-size: 12px;
   padding-left: 10px;
   border-left: 5px solid var(--title-color);
@@ -118,19 +118,11 @@ header img {
   margin-left: 5px;
 }
 
-.link img {
-  background-color: var(--bg-button-color); /*analizar*/
-}
-
-/**
-   font-family: 'League Spartan', sans-serif;
-
-   font-family: 'Work Sans', sans-serif;
-*/
-
 .rigth-side {
+  width: 50vw;
+  height: auto;
   background-image: url("assets/read_news.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 50vw;
+  background-size:cover;
+  background-position: top right -7rem;
 }
