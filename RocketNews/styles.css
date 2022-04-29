@@ -95,14 +95,13 @@ header img {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none
 }
 
 .send-btn {
-  fill: var(--text-color);
   position: relative;
   height: 24px;
-  width: 24px;
-  /*analisar*/
+  width: 24px;  
 }
 
 .link {

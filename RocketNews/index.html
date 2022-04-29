@@ -32,14 +32,20 @@
         </div>
 
         <div class="form-div">
-          <form action="#">
-            <label>Insira seu e-mail:</label><br />
+          <form id="form" action="#">
+            <label for="email">Insira seu e-mail:</label><br />
             <span>
-              <input type="text" placeholder="oi@rocketseat.com" />
-              <div class="send-btn-container">
+              <input id="email" 
+                    type="email" 
+                    name="email"
+                    required 
+                    placeholder="oi@rocketseat.com" />
+              <button type="submit" 
+                      class="send-btn-container" 
+                      
+              >
                 <img class="send-btn" src="assets/send.svg" alt="send button"></img>
-              </div>
-             
+              </button>
             </span>
           </form>
         </div>
@@ -57,4 +63,6 @@
       </div>
     </div>
   </body>
+  <script src="index.js">
+  </script>
 </html>
