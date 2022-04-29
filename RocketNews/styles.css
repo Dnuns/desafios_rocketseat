@@ -1,0 +1,136 @@
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: Spartan, Work Sans;
+}
+
+.container {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  width: 50vw;
+  background-color: var(--body-bg-color);
+}
+
+header img {
+  max-width: 24.31rem;
+  height: auto;
+  margin: 50px auto 57px 0px;
+}
+
+.welcome {
+  font-family: "League Spartan", sans-serif;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.title {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: var(--title-color);
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.form-div {
+  margin-top: 50px;
+}
+
+.form-div label {
+  color: var(--form-color);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.form-div span {
+  margin-top: 17px;
+  width: 750px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.form-div input {
+  height: 48px;
+  min-width: auto;
+  width: 750px;
+  font-size: 12px;
+  padding-left: 10px;
+  border-left: 5px solid var(--title-color);
+}
+
+.send-btn-container {
+  height: 48px;
+  width: 48px;
+  background-color: var(--bg-button-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-btn {
+  fill: var(--text-color);
+  position: relative;
+  height: 24px;
+  width: 24px;
+  /*analisar*/
+}
+
+.link {
+  margin-top: 50px;
+}
+
+.link a {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--bg-button-color);
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.link img {
+  background-color: var(--bg-button-color); /*analizar*/
+}
+
+/**
+   font-family: 'League Spartan', sans-serif;
+
+   font-family: 'Work Sans', sans-serif;
+*/
+
+.rigth-side {
+  background-image: url("assets/read_news.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50vw;
+}
