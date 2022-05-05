@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
+/*
+  font-family: "Poppins", sans-serif;
+
+  font-family: "Roboto", sans-serif;
+*/
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  main .form-section {
+    width: 100%;
+    height: 100%;
+  }
+  main .logo {
+    width: 115px;
+    height: auto;
+  }
+  main .image-bg-section {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */
