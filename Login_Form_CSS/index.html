@@ -10,24 +10,33 @@
   <body>
     <main>
       <section class="form-section">
-        <header>
-          <img class="logo" src="./assets/logo.svg" alt="logo" />
-        </header>
         <div>
-          <div>
-            <a href="#"><img src="./assets/log-in.svg" alt="" /></a>
-            <h1>Faça o seu login</h1>
+          <div class="form-header">
+            <img class="logo" src="./assets/logo.svg" alt="logo" />
+            <span class="login-header">
+              <a href="#"><img src="./assets/log-in.svg" alt="" /></a>
+              <h1>Faça o seu login</h1>
+            </span>
+
             <p>Entre com suas informações de cadastro.</p>
           </div>
-          <form action="/">
+
+          <form action="/" class="form">
             <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
+            <br />
+            <input type="email" name="email" id="email" />
+            <br />
             <label for="password">Senha</label>
-            <input type="password" name="password" id="password">
-            <input type="checkbox" name="checkbox" id="checkbox">
-            <label for="checkbox">Lembre-me</label>
-            <a href="#">Esqueci minha senha</a>
-            <input type="button" value="Entrar">
+            <br />
+            <input type="password" name="password" id="password" />
+            <br />
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <span>
+              <label for="checkbox">Lembre-me</label>
+              <a href="#">Esqueci minha senha</a>
+            </span>
+            <br />
+            <input type="button" value="Entrar" />
             <p>Não tem uma conta?<a href="#">Registre-se</a></p>
           </form>
         </div>
