@@ -20,7 +20,18 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 480px) {
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+
+  a{
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 600px) {
 
   main {
     width: 100vw;
@@ -36,6 +47,7 @@
       height: 100%;
       
       .form-header {
+        
         margin-top: 40px;
 
         .login-header {
@@ -47,6 +59,31 @@
 
       .form{
         margin-top: 27px;
+        
+        .form-item-mt{
+          margin-top: 20px;
+        }
+
+        .form-item-mtll{
+          margin-top: 3px;
+        }
+        
+        .form-item-mtl{
+          margin-top: 14px;
+        }
+
+        .form-check{
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .form-btn{
+          text-align: center;
+        }
+
+        .form-register{
+          text-align: center;
+        }
       }
     }
 

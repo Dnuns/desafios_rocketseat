@@ -22,22 +22,31 @@
           </div>
 
           <form action="/" class="form">
-            <label for="email">E-mail</label>
+            <label class="form-item-mb" for="email">E-mail</label>
             <br />
-            <input type="email" name="email" id="email" />
-            <br />
-            <label for="password">Senha</label>
-            <br />
-            <input type="password" name="password" id="password" />
-            <br />
-            <input type="checkbox" name="checkbox" id="checkbox" />
-            <span>
-              <label for="checkbox">Lembre-me</label>
-              <a href="#">Esqueci minha senha</a>
-            </span>
-            <br />
-            <input type="button" value="Entrar" />
-            <p>Não tem uma conta?<a href="#">Registre-se</a></p>
+            <div class="form-item-mtll">
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="form-item-mt">
+              <label class="form-item-mb" for="password">Senha</label>
+              <div class="form-item-mtll">
+                <input type="password" name="password" id="password" />
+              </div>
+            </div>
+            <div class="form-item-mt form-check">               
+                <span>
+                  <input type="checkbox" name="checkbox" id="checkbox" />
+                  <label for="checkbox" class="f-i-mt">Lembre-me</label>
+                </span>
+                <a href="#">Esqueci minha senha</a>
+              </span>
+            </div>
+            <div class="form-item-mt form-btn">
+              <input type="button" value="Entrar" />
+            </div>
+            <div class="form-item-mtl form-register">
+              <p>Não tem uma conta?<a href="#">Registre-se</a></p>
+            </div>
           </form>
         </div>
       </section>

@@ -18,7 +18,17 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 480px) {
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
   main {
     width: 100vw;
     height: 100vh;
@@ -40,6 +50,25 @@
   }
   main .form-section .form {
     margin-top: 27px;
+  }
+  main .form-section .form .form-item-mt {
+    margin-top: 20px;
+  }
+  main .form-section .form .form-item-mtll {
+    margin-top: 3px;
+  }
+  main .form-section .form .form-item-mtl {
+    margin-top: 14px;
+  }
+  main .form-section .form .form-check {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .form-section .form .form-btn {
+    text-align: center;
+  }
+  main .form-section .form .form-register {
+    text-align: center;
   }
   main .logo {
     width: 115px;
