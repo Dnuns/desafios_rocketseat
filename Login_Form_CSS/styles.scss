@@ -20,34 +20,43 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  font-family: "Poppins", sans-serif;
 
-  a{
+  font-family: "Poppins", sans-serif;
+  color: var(--text-base);
+
+  a {
     text-decoration: none;
+  }
+  
+  .login-header {
+    display: flex;
+    align-items: center;
+
+    .login-icon {
+      margin-top: 6px;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      color: var(--text-title);
+    }
   }
 }
 
 @media (max-width: 600px) {
-
   main {
-    width: 100vw;
-    height: 100vh;
-    
     margin-left: 20px;
     margin-right: 20px;
 
     display: flex;
 
     .form-section {
-      width: 100%;
-      height: 100%;
-      
       .form-header {
-        
         margin-top: 40px;
 
         .login-header {
@@ -57,31 +66,31 @@ body{
         }
       }
 
-      .form{
+      .form {
         margin-top: 27px;
-        
-        .form-item-mt{
+
+        .form-item-mt {
           margin-top: 20px;
         }
 
-        .form-item-mtll{
+        .form-item-mtll {
           margin-top: 3px;
         }
-        
-        .form-item-mtl{
+
+        .form-item-mtl {
           margin-top: 14px;
         }
 
-        .form-check{
+        .form-check {
           display: flex;
           justify-content: space-between;
         }
 
-        .form-btn{
+        .form-btn {
           text-align: center;
         }
 
-        .form-register{
+        .form-register {
           text-align: center;
         }
       }
