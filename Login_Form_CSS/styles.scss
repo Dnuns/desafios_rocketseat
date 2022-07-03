@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
 
-/*
-  font-family: "Poppins", sans-serif;
-
-  font-family: "Roboto", sans-serif;
-*/
-
 :root {
   --text-base: #afb6c2;
   --text-title: #d4ccb6;
@@ -24,17 +18,40 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-
+  justify-content: center;
+  flex-direction: row;
   font-family: "Poppins", sans-serif;
   color: var(--text-base);
+  background-color: var(--background);
 
   a {
     text-decoration: none;
   }
-  
-  .login-header {
+
+  main {
+    width: 100%;
     display: flex;
-    align-items: center;
+    margin: 0 20px;
+  }
+}
+
+/*form section*/
+.form-section {
+  width: 50%;
+
+  .form-header {
+    margin-top: 40px;
+
+    .login-header {
+      display: flex;
+      gap: 10px;
+      margin: 30px 0 5px 0;
+
+      .logo {
+        width: 115px;
+        height: auto;
+      }
+    }
 
     .login-icon {
       margin-top: 6px;
@@ -42,67 +59,141 @@ body {
 
     h1 {
       font-size: 24px;
-      font-weight: 600;
+      font-weight: 500;
       color: var(--text-title);
+    }
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+
+  .form {
+    margin-top: 27px;
+
+    .form-item-mt {
+      margin-top: 20px;
+
+      .remember {
+        font-family: "roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+      }
+
+      .forgot-pass {
+        font-family: "popins", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--primary-color);
+      }
+    }
+
+    .form-item-mtll {
+      margin-top: 3px;
+
+      #email,
+      #password {
+        width: 335px;
+        height: 44px;
+        background-color: var(--background);
+        border-radius: 4px;
+        border: 1px solid var(--text-base);
+        color: var(--text-base);
+
+        &:focus {
+          border: 1px solid var(--primary-color) !important;
+          box-shadow: 0 0 10px var(--primary-color);
+        }
+      }
+    }
+
+    .form-item-mtl {
+      margin-top: 14px;
+    }
+
+    .form-check {
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        display: flex;
+        gap: 5px;
+      }
+
+      #checkbox {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .form-btn-div {
+      text-align: center;
+
+      input {
+        width: 334px;
+        height: 51px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        background-color: var(--primary-color);
+        color: #473404;
+
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "popins", sans-serif;
+      }
+    }
+
+    .form-register {
+      text-align: center;
+      color: var(--primary-color);
+
+      font-family: "roboto", sans-serif;
+
+      p {
+        font-size: 15px;
+        font-weight: 100;
+
+        a {
+          margin-left: 3px;
+          color: var(--primary-color);
+          font-weight: 500;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .form-item-mt.form-check {
+      display: flex;
+      align-items: center;
     }
   }
 }
 
+/*Image background section*/
+.image-bg-section {
+  width: 50%;
+  max-width: 50%;
+  background-image: url("./assets/side-image.jpg");
+  background-size: cover;  
+}
+
+
+/*Mobile*/
 @media (max-width: 600px) {
+  
   main {
-    margin-left: 20px;
-    margin-right: 20px;
-
-    display: flex;
-
+    background-color: var(--background);
+    
     .form-section {
-      .form-header {
-        margin-top: 40px;
-
-        .login-header {
-          display: flex;
-          gap: 10px;
-          margin: 30px 0 5px 0;
-        }
-      }
-
-      .form {
-        margin-top: 27px;
-
-        .form-item-mt {
-          margin-top: 20px;
-        }
-
-        .form-item-mtll {
-          margin-top: 3px;
-        }
-
-        .form-item-mtl {
-          margin-top: 14px;
-        }
-
-        .form-check {
-          display: flex;
-          justify-content: space-between;
-        }
-
-        .form-btn {
-          text-align: center;
-        }
-
-        .form-register {
-          text-align: center;
-        }
-      }
+      width: 100vw;
+      height: 100vh;
     }
+  }
 
-    .logo {
-      width: 115px;
-      height: auto;
-    }
-
-    .image-bg-section {
-      display: none;
-    }
+  .image-bg-section {
+    display: none;
   }
 }
