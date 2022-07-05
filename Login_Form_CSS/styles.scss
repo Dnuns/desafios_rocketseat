@@ -6,7 +6,7 @@
   --background: #191816;
   --form-background: #24221f;
   --primary-color: #ffc632;
-  --inner-form: #24221F;
+  --inner-form: #24221f;
 }
 
 * {
@@ -30,32 +30,37 @@ body {
   }
 
   main {
-    width: 100%;
+    width: inherit;
     display: flex;
-    margin: 0 20px;
   }
 }
 
 /*form section*/
 .form-section {
-  width: 50%;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 
-  .form-section-inner{
+  .form-section-inner {
     background-color: var(--inner-form);
+    width: 572px;
+    margin: 157px auto auto auto;
   }
 
   .form-header {
-    margin-top: 40px;
-
+    
     .login-header {
       display: flex;
       gap: 10px;
       margin: 30px 0 5px 0;
+    }
 
-      .logo {
-        width: 115px;
-        height: auto;
-      }
+    .logo {
+      width: 115px;
+      height: auto;
+      margin-left: 40px;
+      margin-top: 40px;
     }
 
     .login-icon {
@@ -179,22 +184,27 @@ body {
 
 /*Image background section*/
 .image-bg-section {
-  width: 50%;
+  width: 50vw;
   max-width: 50%;
   background-image: url("./assets/side-image.jpg");
-  background-size: cover;  
+  background-size: cover;
+  background-position: left;
 }
-
 
 /*Mobile*/
 @media (max-width: 600px) {
-  
   main {
     background-color: var(--background);
-    
+
     .form-section {
       width: 100vw;
       height: 100vh;
+
+      .form-section-inner {
+        background-color: inherit;
+        width: inherit;
+      }
+
     }
   }
 
