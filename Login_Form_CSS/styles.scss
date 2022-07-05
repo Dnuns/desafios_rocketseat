@@ -6,6 +6,7 @@
   --background: #191816;
   --form-background: #24221f;
   --primary-color: #ffc632;
+  --inner-form: #24221F;
 }
 
 * {
@@ -39,6 +40,10 @@ body {
 .form-section {
   width: 50%;
 
+  .form-section-inner{
+    background-color: var(--inner-form);
+  }
+
   .form-header {
     margin-top: 40px;
 
@@ -60,7 +65,7 @@ body {
     h1 {
       font-size: 24px;
       font-weight: 500;
-      color: var(--text-title);
+      color: var(--title);
     }
   }
 

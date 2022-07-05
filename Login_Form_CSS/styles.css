@@ -5,6 +5,7 @@
   --background: #191816;
   --form-background: #24221f;
   --primary-color: #ffc632;
+  --inner-form: #24221F;
 }
 
 * {
@@ -36,6 +37,9 @@ body main {
 .form-section {
   width: 50%;
 }
+.form-section .form-section-inner {
+  background-color: var(--inner-form);
+}
 .form-section .form-header {
   margin-top: 40px;
 }
@@ -54,7 +58,7 @@ body main {
 .form-section .form-header h1 {
   font-size: 24px;
   font-weight: 500;
-  color: var(--text-title);
+  color: var(--title);
 }
 .form-section p {
   font-family: "Roboto", sans-serif;
