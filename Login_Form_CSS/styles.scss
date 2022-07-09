@@ -1,3 +1,4 @@
+/*-------Reset and config----------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
 
 :root {
@@ -9,206 +10,57 @@
   --inner-form: #24221f;
 }
 
-* {
+*,
+body,
+html {
   padding: 0;
   margin: 0;
+  outline: none;
   box-sizing: border-box;
+  font-family: "popins", sans-serif;
 }
 
-body {
+main {
+  display: flex;
+}
+
+main {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  font-family: "Poppins", sans-serif;
-  color: var(--text-base);
+}
+
+/*-------Form Section----------*/
+.form-section {
+  width: 50%;
   background-color: var(--background);
 
-  a {
-    text-decoration: none;
+  .logo {
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
   }
 
-  main {
-    width: inherit;
-    display: flex;
-  }
-}
-
-/*form section*/
-.form-section {
-  width: 50vw;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-
-  .form-section-inner {
+  .form-container {
     background-color: var(--inner-form);
-    width: 572px;
-    margin: 157px auto auto auto;
-  }
-
-  .form-header {
-    
-    .login-header {
-      display: flex;
-      gap: 10px;
-      margin: 30px 0 5px 0;
-    }
-
-    .logo {
-      width: 115px;
-      height: auto;
-      margin-left: 40px;
-      margin-top: 40px;
-    }
-
-    .login-icon {
-      margin-top: 6px;
-    }
-
-    h1 {
-      font-size: 24px;
-      font-weight: 500;
-      color: var(--title);
-    }
-  }
-
-  p {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-  }
-
-  .form {
-    margin-top: 27px;
-
-    .form-item-mt {
-      margin-top: 20px;
-
-      .remember {
-        font-family: "roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-      }
-
-      .forgot-pass {
-        font-family: "popins", sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-        color: var(--primary-color);
-      }
-    }
-
-    .form-item-mtll {
-      margin-top: 3px;
-
-      #email,
-      #password {
-        width: 335px;
-        height: 44px;
-        background-color: var(--background);
-        border-radius: 4px;
-        border: 1px solid var(--text-base);
-        color: var(--text-base);
-
-        &:focus {
-          border: 1px solid var(--primary-color) !important;
-          box-shadow: 0 0 10px var(--primary-color);
-        }
-      }
-    }
-
-    .form-item-mtl {
-      margin-top: 14px;
-    }
-
-    .form-check {
-      display: flex;
-      justify-content: space-between;
-
-      span {
-        display: flex;
-        gap: 5px;
-      }
-
-      #checkbox {
-        width: 20px;
-        height: 20px;
-      }
-    }
-
-    .form-btn-div {
-      text-align: center;
-
-      input {
-        width: 334px;
-        height: 51px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-
-        background-color: var(--primary-color);
-        color: #473404;
-
-        font-size: 18px;
-        font-weight: 600;
-        font-family: "popins", sans-serif;
-      }
-    }
-
-    .form-register {
-      text-align: center;
-      color: var(--primary-color);
-
-      font-family: "roboto", sans-serif;
-
-      p {
-        font-size: 15px;
-        font-weight: 100;
-
-        a {
-          margin-left: 3px;
-          color: var(--primary-color);
-          font-weight: 500;
-          cursor: pointer;
-        }
-      }
-    }
-
-    .form-item-mt.form-check {
-      display: flex;
-      align-items: center;
-    }
+    margin: 7.87rem 4.62rem auto 4.62rem;
   }
 }
 
-/*Image background section*/
-.image-bg-section {
-  width: 50vw;
-  max-width: 50%;
-  background-image: url("./assets/side-image.jpg");
-  background-size: cover;
-  background-position: left;
+.form-header {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+    color: var(--text-title);
+  }
 }
 
-/*Mobile*/
-@media (max-width: 600px) {
-  main {
-    background-color: var(--background);
-
-    .form-section {
-      width: 100vw;
-      height: 100vh;
-
-      .form-section-inner {
-        background-color: inherit;
-        width: inherit;
-      }
-
-    }
-  }
-
-  .image-bg-section {
-    display: none;
-  }
+/*-------Background Section----------*/
+.background-section {
+  background-color: red;
+  width: 50%;
 }
