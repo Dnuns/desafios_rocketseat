@@ -67,6 +67,7 @@ main {
 .form-header .form-logo {
   width: 100%;
   display: flex;
+  align-items: center;
 }
 .form-header .form-logo img {
   width: 1.5rem;
@@ -74,8 +75,18 @@ main {
   margin-right: 10px;
 }
 .form-header .form-logo h1 {
-  font-size: 1.5rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
   color: var(--text-title);
+}
+.form-header p {
+  align-self: flex-start;
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text-base);
 }
 
 /*-------Background Section----------*/
