@@ -33,34 +33,68 @@ main {
 .form-section {
   width: 50%;
   background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .logo {
-    margin-top: 2.5rem;
-    margin-left: 2.5rem;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 115px;
+    height: 28px;
   }
 
   .form-container {
+    display: flex;
+    justify-content: center;
     background-color: var(--inner-form);
-    margin: 7.87rem 4.62rem auto 4.62rem;
+    width: 85%;
+    height: 60%;
+    left: 74px;
+    top: 194px;
+
+    .form-container-inner{
+      width: 65%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
   }
 }
 
 .form-header {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  height: 73px;
 
-  img {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-  h1 {
-    font-size: 1.5rem;
-    color: var(--text-title);
+  .form-logo{
+    width: 100%;
+    display: flex;
+
+    img {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-right: 10px;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: var(--text-title);
+    }
   }
 }
 
 /*-------Background Section----------*/
 .background-section {
-  background-color: red;
+  display: flex;
   width: 50%;
+
+  .background-img {
+    background-image: url(./assets/side-image.jpg);
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
