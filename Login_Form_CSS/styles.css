@@ -17,6 +17,8 @@ html {
   outline: none;
   box-sizing: border-box;
   font-family: "popins", sans-serif;
+  text-decoration: none;
+  color: var(--text-base);
 }
 
 main {
@@ -80,7 +82,6 @@ main {
   font-family: "Poppins";
   font-weight: 600;
   font-size: 24px;
-  color: var(--text-title);
 }
 .form-header p {
   align-self: flex-start;
@@ -88,11 +89,9 @@ main {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
-  color: var(--text-base);
 }
 
 .form-input-email {
-  color: var(--text-base);
   display: flex;
   flex-direction: column;
 }
@@ -118,9 +117,9 @@ main {
 }
 
 .form-input-password {
-  color: var(--text-base);
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 .form-input-password label {
   font-family: "Poppins";
@@ -178,7 +177,6 @@ input {
   background-color: var(--inner-form);
   border: 1px solid var(--text-base);
   border-radius: 4px;
-  color: var(--text-base);
   height: 44px;
 }
 input::-moz-placeholder {
@@ -200,10 +198,29 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
 }
 .form-input-check .check-container {
   display: flex;
   align-items: center;
+}
+.form-input-check #remember {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #868686;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+.form-input-check .remember-text {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+.form-input-check .forgot-text {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--primary-color);
 }
 
 /*-------Background Section----------*/
