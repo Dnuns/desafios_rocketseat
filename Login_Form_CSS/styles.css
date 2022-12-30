@@ -285,9 +285,24 @@ input:focus {
   /*-------Form Section----------*/
   .form-section {
     width: 100%;
+    align-items: top;
+  }
+  .form-section .logo {
+    left: 15px;
+  }
+  .form-section .form-container {
+    background-color: var(--background);
+    width: 100%;
+    height: 60%;
+    align-self: start;
+    margin-top: 88px;
+  }
+  .form-section .form-container .form-container-inner {
+    width: 90%;
   }
   /*-------Background Section----------*/
   .background-section {
     display: none;
+    align-self: top;
   }
 }/*# sourceMappingURL=styles.css.map */
