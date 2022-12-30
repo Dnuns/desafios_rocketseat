@@ -11,7 +11,9 @@ https://www.figma.com/file/SX8XFyC5fAY09ai8Oykz0T/DD-%2F-Login-Form---CSS/duplic
 
 ## Preview
 
-![screenshot](readme-img/preview.jpeg)
+![screenshot](readme-img/web_preview.jpeg)
+
+![screenshot](readme-img/mobile_preview.jpeg)
 
 ## Author
 
