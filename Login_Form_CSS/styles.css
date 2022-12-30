@@ -242,6 +242,8 @@ input:focus {
   font-weight: 600;
   font-size: 14px;
   color: #473404;
+  border-radius: 4px;
+  border-color: var(--primary-color);
 }
 
 /*-------Singout Section----------*/
