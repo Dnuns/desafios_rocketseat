@@ -114,6 +114,7 @@ main {
   font-family: "Poppins";
   font-weight: 500;
   font-size: 16px;
+  margin-bottom: 5px;
 }
 
 .form-input-password {
@@ -125,6 +126,7 @@ main {
   font-family: "Poppins";
   font-weight: 500;
   font-size: 16px;
+  margin-bottom: 5px;
 }
 .form-input-password input[type=password] {
   padding-left: 37px;
@@ -223,6 +225,47 @@ input:focus {
   color: var(--primary-color);
 }
 
+/*-------Button Section----------*/
+.btn-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enter-btn {
+  padding: 12px 24px;
+  width: 100%;
+  height: 51px;
+  background-color: var(--primary-color);
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #473404;
+}
+
+/*-------Singout Section----------*/
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.signup-txt {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--primary-color);
+}
+.signup-txt .signup-text-dtl {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--primary-color);
+}
+
 /*-------Background Section----------*/
 .background-section {
   display: flex;
@@ -235,4 +278,16 @@ input:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/*-------Background Section----------*/
+@media only screen and (max-width: 600px) {
+  /*-------Form Section----------*/
+  .form-section {
+    width: 100%;
+  }
+  /*-------Background Section----------*/
+  .background-section {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
