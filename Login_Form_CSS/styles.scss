@@ -102,7 +102,7 @@ main {
   display: flex;
   flex-direction: column;
 
-  &.has-icon {
+  &.has-icon-email {
     position: relative;
 
     input[type="email"] {
@@ -118,25 +118,70 @@ main {
       left: 10px;
       top: calc(50% + 3px);
     }
-
-    /*
-
-    &.icon-focus::before {
-      content: "";
-      height: 20px;
-      width: 20px;
-      position: absolute;
-      background-image: url(./assets/mail-focus.svg);
-      left: 10px;
-      top: calc(50% + 3px);
-    }
-    */
   }
 
   label {
     font-family: "Poppins";
     font-weight: 500;
     font-size: 16px;
+  }
+}
+
+.form-input-password {
+  color: var(--text-base);
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  input[type="password"] {
+    padding-left: 37px;
+  }
+}
+
+.has-icon-password1 {
+  position: relative;
+
+  &.icon1::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-image: url(./assets/lock.svg);
+    left: 10px;
+    top: calc(50% + 35px);
+  }
+}
+
+.has-icon-password1 {
+  position: relative;
+
+  &.icon1::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-image: url(./assets/lock.svg);
+    left: 10px;
+    top: calc(50% + 35px);
+  }
+}
+
+.has-icon-password2 {
+  position: relative;
+
+  &.icon2::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-image: url(./assets/eye.svg);
+    left: calc(100% - 30px);
+    top: calc(50% - 32px);
   }
 }
 
@@ -158,6 +203,18 @@ input {
   &:focus {
     border: var(--primary-color);
     box-shadow: 0px 0px 0px 2px var(--primary-color);
+  }
+}
+
+/*------- Form input check ----------*/
+.form-input-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .check-container {
+    display: flex;
+    align-items: center;
   }
 }
 
