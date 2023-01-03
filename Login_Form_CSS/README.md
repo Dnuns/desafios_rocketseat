@@ -9,9 +9,10 @@ This is one of Rocketseat's challenges.
 
 https://www.figma.com/file/SX8XFyC5fAY09ai8Oykz0T/DD-%2F-Login-Form---CSS/duplicate
 
-## Preview
+### Vercel link
+https://desafios-rocketseat-1b87.vercel.app/
 
-Vercel link https://desafios-rocketseat-1b87.vercel.app/
+## Preview
 
 ![screenshot](readme-img/web_preview.jpeg)
 
