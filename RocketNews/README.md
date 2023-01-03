@@ -9,9 +9,10 @@ This is one of Rocketseat's challenges.
 
 ### Figma
 
-Versel link https://desafios-rocketseat-cgtj.vercel.app
-
 https://www.figma.com/file/OVTHLjc2hi3MSQiYm9BplU/DD-%2F-RocketNews/duplicate
+
+### Vercel link
+https://desafios-rocketseat-cgtj.vercel.app
 
 ## Preview
 
