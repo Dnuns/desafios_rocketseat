@@ -13,7 +13,7 @@ This is one of Rocketseat's challenges.
 https://www.figma.com/file/45bn8jmPvaNPHXodwayo6o/DD-%2F-Social-links-(Copy)?node-id=1105%3A4
 
 ### Vercel link
-https://desafios-rocketseat-j6mplhas8-dnuns.vercel.app/
+desafios-rocketseat-71a8z4v8x-dnuns.vercel.app
 
 ## Preview
 
