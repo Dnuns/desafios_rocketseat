@@ -11,6 +11,8 @@ https://www.figma.com/file/SX8XFyC5fAY09ai8Oykz0T/DD-%2F-Login-Form---CSS/duplic
 
 ## Preview
 
+Vercel link https://desafios-rocketseat-1b87.vercel.app/
+
 ![screenshot](readme-img/web_preview.jpeg)
 
 ![screenshot](readme-img/mobile_preview.jpeg)
