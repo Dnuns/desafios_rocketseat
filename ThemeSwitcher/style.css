@@ -2,6 +2,8 @@
   --dark: #292c35;
   --light: #f1f1f1;
   --label: #111;
+  --text-dark: #fff;
+  --transition: 1s;
 }
 
 * {
@@ -24,6 +26,21 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  display: flex;
+  flex-direction: column;  
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+main.dark {
+  background-color: var(--dark);
+  color: var(--text-dark);
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 .container {
@@ -40,13 +57,12 @@ main {
 }
 
 .sun {
-
   position: absolute;
   top: 12px;
   right: 150px;
   z-index: 2;
   width: 78.5px;
-  height: 78.5px; 
+  height: 78.5px;
 }
 
 .ball {
@@ -54,4 +70,17 @@ main {
   top: 8px;
   right: 10px;
   z-index: 3;
+}
+
+.ball:hover {
+  cursor: pointer;
+}
+
+.moon {
+  position: absolute;
+  top: 12px;
+  right: 7px;
+  z-index: 2;
+  width: 78.5px;
+  height: 78.5px;
 }
