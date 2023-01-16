@@ -2,14 +2,11 @@
 
 document.querySelector('.ball').addEventListener('click', () => {
 
-
-
-
     document.querySelector('.ball').classList.toggle('active');
 
     let darkTheme = document.querySelector('.main').classList.toggle('dark');
 
-    console.log(localStorage.setItem('theme', JSON.stringify(darkTheme)));
+    localStorage.setItem('theme', JSON.stringify(darkTheme));
 
 });
 
