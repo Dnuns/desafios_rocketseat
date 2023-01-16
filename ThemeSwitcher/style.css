@@ -27,7 +27,7 @@ main {
   align-items: center;
   justify-content: center;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   transition: 1s;
   transition-timing-function: ease-in-out;
 }
@@ -59,27 +59,32 @@ main.dark {
 .sun {
   position: absolute;
   top: 12px;
-  right: 150px;
+  right: 8px;
   z-index: 2;
-  width: 78.5px;
-  height: 78.5px;
+  width: 79.5px;
+  height: 79.5px;
 }
 
 .ball {
   position: absolute;
   top: 8px;
-  right: 10px;
+  right: 140px;
   z-index: 3;
+  transition: 1s;
 }
 
 .ball:hover {
   cursor: pointer;
 }
 
+.ball.active {
+  right: 10px;
+}
+
 .moon {
   position: absolute;
   top: 12px;
-  right: 7px;
+  right: 150px;
   z-index: 2;
   width: 78.5px;
   height: 78.5px;
